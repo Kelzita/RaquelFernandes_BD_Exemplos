@@ -1,2 +1,2 @@
 # RaquelFernandes_BD_Exemplos
- -- Exemplos de Banco de Dados -- 
+ -- Exemplos das Aulas de Banco de Dados -- 
