@@ -1,0 +1,1 @@
+select * from Colaborador_Tarde  where Salario between 80000.00 and 90000.00

@@ -1,0 +1,1 @@
+Create DATABASE RaquelFernandesBrito_Join;

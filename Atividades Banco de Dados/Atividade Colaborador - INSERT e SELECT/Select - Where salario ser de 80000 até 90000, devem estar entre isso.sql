@@ -1,0 +1,1 @@
+select * from Colaborador_Tarde  where (Salario >= 80000.00) and (Salario <=90000.00)
