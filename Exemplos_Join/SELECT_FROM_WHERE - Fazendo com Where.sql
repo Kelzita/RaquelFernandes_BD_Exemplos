@@ -1,0 +1,1 @@
+SELECT Nome_Cliente, Num_Pedido FROM cliente1,Pedido WHERE Cliente1.Cod_Cliente = Pedido.Cod_Cliente;

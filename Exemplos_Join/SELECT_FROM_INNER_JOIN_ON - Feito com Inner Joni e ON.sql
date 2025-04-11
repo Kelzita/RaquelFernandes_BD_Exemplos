@@ -1,0 +1,1 @@
+SELECT Cliente1.Nome_Cliente, Pedido.Num_Pedido FROM cliente1 INNER JOIN Pedido ON Cliente1.Cod_Cliente = Pedido.Cod_Cliente

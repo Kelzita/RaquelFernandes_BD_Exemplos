@@ -1,0 +1,1 @@
+SELECT Nome_Cliente, Nome_Profissao FROM cliente1,Profissao WHERE Profissao.Cod_Profissao=Cliente1.Cod_Profissao;
