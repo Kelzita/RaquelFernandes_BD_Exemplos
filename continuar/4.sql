@@ -1,0 +1,1 @@
+SELECT Nome, Cidade, Sexo FROM cliente WHERE Cidade = 'Guarapuava' AND Sexo = 'M'; 

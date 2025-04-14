@@ -1,0 +1,2 @@
+/*2 – Nome dos clientes que compraram mais de 23 peças de queijo.*/
+SELECT Nome FROM cliente JOIN compra ON cliente.cpf = compra.cpf  JOIN item on compra.cod_compra = item.cod_compra JOIN produto ON produto.cod_produto = item.cod_produto WHERE produto.Descrição = 'queijo' AND item.quantidade > 23;
