@@ -1,0 +1,3 @@
+/*12) LISTAR TODOS OS PRODUTOS QUE TENHAM O SEU NOME COMEÇANDO POR 'Q'*/
+
+SELECT DescProduto FROM Produto WHERE DescProduto like '%Q%'

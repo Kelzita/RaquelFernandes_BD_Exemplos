@@ -1,0 +1,1 @@
+SELECT Cod_Vendedor AS "Codigo do Vendedor", Nome_Vendedor  AS "Nome do Vendedor", Salario_Fixo AS "Salario Inicial", Faixa_Comissao AS "Comissão" FROM Vendedor

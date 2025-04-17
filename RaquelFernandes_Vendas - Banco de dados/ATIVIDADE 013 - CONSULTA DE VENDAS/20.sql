@@ -1,0 +1,3 @@
+/*20) MOSTRAR O MENOR E O MAIOR SALARIO DA TABELA VENDEDOR */
+
+SELECT Nome_Vendedor, min(Salario_Fixo) 

@@ -1,0 +1,3 @@
+/*) LISTE OS NOMES E A CIDADE DOS CLIENTES QUE MORAM EM NITEROI*/
+
+SELECT Nome_Cliente, Cidade  FROM Cliente  WHERE Cidade = 'Niterói'

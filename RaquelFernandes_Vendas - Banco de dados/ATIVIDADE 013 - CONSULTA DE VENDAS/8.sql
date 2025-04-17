@@ -1,0 +1,3 @@
+/*08) LISTAR OS PRODUTOS QUE TENHAM UNIDADE IGUAL A 'm' E VALOR UNITARIO IGUAL A R1.05 DA TABELA PRODUTO*/
+
+SELECT DescProduto, UniProduto, ValorUnitario FROM Produto WHERE UniProduto = "M" AND ValorUnitario = "1.05"

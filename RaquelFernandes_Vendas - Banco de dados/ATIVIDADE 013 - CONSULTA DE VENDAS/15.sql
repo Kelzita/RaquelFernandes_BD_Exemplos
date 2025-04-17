@@ -1,0 +1,1 @@
+SELECT Nome_Cliente, inscricao_Estadual FROM Cliente WHERE Inscricao_Estadual IS NULL OR Inscricao_Estadual = ""

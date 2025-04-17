@@ -1,0 +1,1 @@
+SELECT Nome_Vendedor, Salario_Fixo * 2 AS "Salário Dobrado" FROM Vendedor 

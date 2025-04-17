@@ -1,0 +1,1 @@
+SELECT Nome_Vendedor AS 'Nome do Vendedor', Salario_Fixo AS 'Salario Fixo' FROM Vendedor ORDER BY Nome_Vendedor
