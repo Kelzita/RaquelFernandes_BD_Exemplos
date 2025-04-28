@@ -1,0 +1,1 @@
+SELECT  endereco, responsavel from consultorio WHERE endereco Like '%Paulo%'

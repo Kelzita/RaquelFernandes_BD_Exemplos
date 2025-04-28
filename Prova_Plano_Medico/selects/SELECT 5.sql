@@ -1,0 +1,1 @@
+SELECT id, nome,capacidade from consultorio where capacidade > 10

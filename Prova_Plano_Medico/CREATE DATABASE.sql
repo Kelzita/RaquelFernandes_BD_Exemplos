@@ -1,0 +1,1 @@
+CREATE DATABASE Prova_Plano_Medico;

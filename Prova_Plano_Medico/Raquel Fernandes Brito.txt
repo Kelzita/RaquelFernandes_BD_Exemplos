@@ -1,0 +1,46 @@
+NOME: Raquel Fernandes Brito
+TURMA:2V1
+PROVA 1
+
+EX001- 
+SELECT DISTINCT consulta.data_consulta, consulta.horario_consulta, medico.nome as 'Nome médico', paciente.nome as 'Nome paciente' from consulta JOIN medico join paciente
+WHERE consulta.data_consulta BETWEEN '2023-10-01' AND '2023-10-25' 
+order by data_consulta asc
+
+EX002- 
+
+SELECT DISTINCT count(horario_consulta) As 'total_consultas' from consulta
+
+
+EX003- 
+
+select distinct paciente.nome AS paciente, consulta.data_consulta,consulta.horario_consulta, medico.nome as Doutor from medico 
+join consulta, paciente WHERE medico.nome like '%Joao%'
+order by data_consulta, horario_consulta
+
+EX004- 
+
+SELECT Count(motivo) as "Motivo" from consulta  WHERE motivo = 'Dor no peito'
+
+EX005-
+
+SELECT id, nome,capacidade from consultorio where capacidade > 10
+
+EX006- 
+
+SELECT  endereco, responsavel from consultorio WHERE endereco Like '%Paulo%'
+
+EX007-
+
+SELECT nome, especialidade, data_contratacao FROM medico 
+WHERE data_contratacao < '2018-02-25'
+
+EX008-
+
+SELECT DISTINCT medico.nome, paciente.nome, consultorio.nome, consulta.data_consulta, consulta.horario_consulta from medico
+JOIN paciente
+JOIN consultorio
+JOIN consulta
+ORDER BY data_consulta , horario_consulta
+
+
